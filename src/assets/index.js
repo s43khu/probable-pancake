@@ -31,6 +31,7 @@ import nielit from "./company/nielit.jpeg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import docedit from "./docedit.png";
 
 export {
   logo,
@@ -63,5 +64,6 @@ export {
   tripguide,
   nielit,
   oops,
-  esfera
+  esfera,
+  docedit
 };

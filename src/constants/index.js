@@ -12,7 +12,7 @@ import {
     oops,
     esfera,
     nielit,
-    carrent,
+    docedit,
     jobit,
     tripguide,
   } from "../assets";
@@ -149,30 +149,26 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Trips",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A platform through which users can search, book and expolre more about the locations around the world.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "SQL",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: tripguide,
+      source_code_link: "https://github.com/s43khu/React_tour",
     },
     {
-      name: "Job IT",
+      name: "Instant Docs",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users instantly generate a full fledged doc from just a template.",
       tags: [
         {
           name: "react",
@@ -187,29 +183,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: docedit,
+      source_code_link: "https://github.com/s43khu/practice_file",
     },
   ];
   
