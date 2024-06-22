@@ -1,0 +1,8 @@
+Model Information:
+* title:	DAE Weaponcraft - Vilichor
+* source:	https://sketchfab.com/3d-models/dae-weaponcraft-vilichor-4c247e1832c64fe489ffe84df982d827
+* author:	astridshulzhuk (https://sketchfab.com/astridshulzhuk)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

@@ -1,0 +1,11 @@
+Model Information:
+* title:	StylizedLamp_(RETRY_SCHOOL_Daily)
+* source:	https://sketchfab.com/3d-models/stylizedlamp-retry-school-daily-72d5e69a8b544da49d60343223e00758
+* author:	Mills (https://sketchfab.com/vova_mills)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "StylizedLamp_(RETRY_SCHOOL_Daily)" (https://sketchfab.com/3d-models/stylizedlamp-retry-school-daily-72d5e69a8b544da49d60343223e00758) by Mills (https://sketchfab.com/vova_mills) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
