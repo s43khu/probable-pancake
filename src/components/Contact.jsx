@@ -16,6 +16,7 @@ const Contact = () => {
     message: "",
   });
 
+  const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -26,8 +27,20 @@ const Contact = () => {
     });
   };
 
+  const validate = () => {
+    let tempErrors = {};
+    if (!form.from_name) tempErrors.from_name = "Name is required";
+    if (!form.email) tempErrors.email = "Email is required";
+    if (form.email && !/\S+@\S+\.\S+/.test(form.email)) tempErrors.email = "Email is not valid";
+    if (!form.message) tempErrors.message = "Message is required";
+    setErrors(tempErrors);
+    return Object.keys(tempErrors).length === 0;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!validate()) return;
+
     setLoading(true);
 
     emailjs
@@ -83,6 +96,7 @@ const Contact = () => {
                 placeholder="What's your good name?"
                 className="bg-gray-900 py-3 px-4 placeholder-gray-400 text-white rounded-lg outline-none border-none font-medium"
               />
+              {errors.from_name && <span className="text-red-500">{errors.from_name}</span>}
             </label>
             <label className="flex flex-col">
               <span className="text-white font-medium mb-2">Your Email</span>
@@ -94,6 +108,7 @@ const Contact = () => {
                 placeholder="What's your web address?"
                 className="bg-gray-900 py-3 px-4 placeholder-gray-400 text-white rounded-lg outline-none border-none font-medium"
               />
+              {errors.email && <span className="text-red-500">{errors.email}</span>}
             </label>
             <label className="flex flex-col">
               <span className="text-white font-medium mb-2">Your Message</span>
@@ -105,6 +120,7 @@ const Contact = () => {
                 placeholder="What you want to say?"
                 className="bg-gray-900 py-3 px-4 placeholder-gray-400 text-white rounded-lg outline-none border-none font-medium"
               />
+              {errors.message && <span className="text-red-500">{errors.message}</span>}
             </label>
 
             <button
