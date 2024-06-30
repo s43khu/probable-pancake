@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+Welcome to My GitHub Profile! 👨‍💻✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi there! I'm Abhishek (shekhu), a passionate developer from Chandigarh who loves diving deep into the world of JavaScript. I enjoy crafting solutions that not only solve problems but also make an impact.
 
-Currently, two official plugins are available:
+🌟 About Me
+Location: 🌍 Chandigarh
+Website: 🌐 s43.run.place
+Social Media: 📸 Instagram
+🚀 Projects
+Here are some of my key projects:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+practice_files:
+📁 A collection of configuration files that streamline my workflow and help maintain my GitHub profile.
+🛠️ Tech Stack
+Languages: JavaScript, HTML, CSS
+Frameworks/Libraries: React, Node.js, Express
+Tools: Git, GitHub, VS Code
+📬 Get in Touch
+Website: s43.run.place
+Instagram: @ig_shekhu
+Feel free to reach out if you have any questions, want to collaborate on a project, or just want to say hi! 😊
