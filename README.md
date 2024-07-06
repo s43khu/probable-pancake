@@ -15,6 +15,9 @@ Here are some of my key projects:
 ### [practice_files](https://github.com/s43khu/practice_files)
 - 📁 A collection of configuration files that streamline my workflow and help maintain my GitHub profile.
 
+### [anon-chat] (https://github.com/s43khu/anon-chat)
+- 📁 A anonymous global chat app for users who dont want to reveal themselves.
+
 ## 🛠️ Tech Stack
 
 - **Languages:** JavaScript, HTML, CSS
