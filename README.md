@@ -1,6 +1,6 @@
 # Welcome to My GitHub Profile! 👨‍💻✨
 
-Hi there! I'm **Abhishek (shekhu)**, a passionate developer from Chandigarh who loves diving deep into the world of JavaScript. I enjoy crafting solutions that not only solve problems but also make an impact.
+Hi there! I'm **Abhishek Thakur(shekhu)**, a passionate developer from Chandigarh who loves diving deep into the world of JavaScript. I enjoy crafting solutions that not only solve problems but also make an impact.
 
 ## 🌟 About Me
 
